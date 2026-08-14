@@ -1,0 +1,15 @@
+body {
+    background-color: rgb(241, 173, 205);
+}
+h2 {
+    color: rgb(235, 8, 121);
+    font-family: 'OCR A Std', monospace;
+    font-weight: 900;
+}
+h1 {
+    color:rgb(247, 243, 245);
+    font-family: 'Trattatello', 'fantasy';
+    font-style: oblique;
+    background-color: rgb(231, 6, 130);
+    font-size:xx-large
+}
