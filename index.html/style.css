@@ -1,15 +1,27 @@
 body {
-    background-color: rgb(241, 173, 205);
+    background-color: rgb(255, 255, 255);
+    
 }
 h2 {
-    color: rgb(235, 8, 121);
+    color: rgb(196, 132, 80);
     font-family: 'OCR A Std', monospace;
     font-weight: 900;
 }
 h1 {
-    color:rgb(247, 243, 245);
+    color:rgb(117, 52, 9);
     font-family: 'Trattatello', 'fantasy';
     font-style: oblique;
-    background-color: rgb(231, 6, 130);
+    background-color: white;
     font-size:xx-large
+}
+
+p {
+    color: red;  
+}
+
+.about-me{
+    color: green;
+}
+.services-me{
+    color: green;
 }
