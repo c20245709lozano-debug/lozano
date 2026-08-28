@@ -1,64 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kim Lozano | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1> Kim Lozano </h1> 
+
     <header>
+        <h1>Kim Lozano</h1> 
         <nav>
+            <span>
+                @kcly.ism_
+            </span>
             <ul>
-                <li>
-                    <a href="#about">About </a>
-                </li>
-                <li><a href="#sevices">Services </a></li>
-                <li><a href="#contact">Contacts</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-    <section id="about">
-       <h2>About me</h2>
-        <p class="about-me">
-        HELLLO HELLO HELLO HELLO
-         </p>
-    </section>
-
+        <section id="about">
+            <h2 class="about"> About me</h2>
+            <p class="about-me">
+                HELLLO HELLO HELLO HELLO
+            </p>
+        </section>
 
         <section id="services">
-            <h2>
-          My Services
-        </h2>
-        <p class="services-me"> HUG, KISS, CUDDLE </p></section>
+            <h2 class="services">My Services</h2>
+            <p class="services-me">HUG, KISS, CUDDLE</p>
+        </section>
       
-      
-        <section id="contact"><h2>
-          Contact me 
-        </h2>
-        <form action="#">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
+        <section id="contact">
+            <h2 class="contact">Contact me</h2>
+            <form action="#" method="POST">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
 
-            <label for="name">Email</label>
-            <input type="email" id="email" name="email" required>
-      
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
 
-            <label for="name">Message</label>
-            <input type="message" id="message" name="message" required>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
         
-               <label for="name">Allow</label>
-            <input type="checkbox" id="allow" name="allowed" required>
-            <button type="submit">Send Message</button>
+                <div class="form-group checkbox-group">
+                    <input type="checkbox" id="allow" name="allowed" required>
+                    <label for="allow">Allow data processing</label>
+                </div>
 
-
-        </form>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
     </main>
+
 </body>
 </html>
-
-
