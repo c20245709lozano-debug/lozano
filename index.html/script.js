@@ -1,2 +1,14 @@
-console.log ("Hello, World!");
-console.log ("From script.js file."); 
+console.log("Hello, World!");
+console.log("From script.js file.");
+
+const myName = "Kim";
+let age = 16;
+age = 17;
+
+const myNumber = 9166246411; 
+const myAddress = "Manapla";
+
+console.log(`My name is ${myName}, ${age} years old.`);
+console.log(`Number: ${myNumber}`);
+console.log(`Address: ${myAddress}`)
+console.log(67);
