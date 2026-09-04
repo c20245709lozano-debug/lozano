@@ -25,3 +25,12 @@ function greet(greeting, names =[]){
 
 console.log(greet("Mayong aga" , ["Kim", "Kim", "Kim", "Kim"]));
 
+const heading = document.querySelector ("h1");
+console.log(heading);
+
+const contactHeading = document.querySelector("#contact h2");
+console.log(contactHeading)
+
+const projectsHeading = document.querySelector ("#services h2");
+console.log(projectsHeading);
+
