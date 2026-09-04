@@ -1,67 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kim Lozano | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
 <body>
-
-    <header>
-        <h1>Kim Lozano</h1> 
+    <h1>
+       Kimberly Lozano
+    </h1>
+       <header>
         <nav>
-            <span>
-                @kcly.ism_
-            </span>
+            <span>kcly.ism_</span>
             <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contacts</a>
+                </li>
+
+
+           
             </ul>
         </nav>
-    </header>
 
-    <main>
+
+       </header>
+
+
+       <main>
         <section id="about">
-            <h2 class="about"> About me</h2>
-            <p class="about-me">
-                HELLLO HELLO HELLO HELLO
-            </p>
+            <h2>About me</h2>
+            <p>HELLO HELLO HELLO HELLO</p>
+       
         </section>
+
 
         <section id="services">
-            <h2 class="services">My Services</h2>
-            <p class="services-me">HUG, KISS, CUDDLE</p>
+            <h2>My Services</h2>
+            <p>KISSES, HUGS, AND CUDDLES</p>
+
+
         </section>
-      
-        <section id="contact">
-            <h2 class="contact">Contact me</h2>
-            <form action="#" method="POST">
-                <div class="form-group">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" name="name" required>
-                </div>
 
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
 
-                <div class="form-group">
-                    <label for="message">Message</label>
-                    <textarea id="message" name="message" rows="5" required></textarea>
-                </div>
-        
-                <div class="form-group checkbox-group">
-                    <input type="checkbox" id="allow" name="allowed" required>
-                    <label for="allow">Allow data processing</label>
-                </div>
+        <section id="contacts">
+            <h2>Contact me</h2>
+            <form action="#">
+               
+                <!-- Name -->
+                 <label for="name">Name</label>
+                 <input type="text" id="name" name="name" required>
 
-                <button type="submit">Send Message</button>
+
+                 <!-- Email -->
+                 <label for="email">Email</label>
+                 <input type="text" id="email" name="email" required>
+               
+                 <!-- Message -->
+                 <label for="message">Message</label>
+                 <textarea type="text" id="message" name="message" row="5" required></textarea>
+
+
+                 <label for="allow">Allow</label>
+                 <input type="checkbox" name="allowed" id="allow">
+                 
+                 <button type="submit">Send Message</button>
+
             </form>
         </section>
     </main>
 
+
+    <script src="script.js"></script>
 </body>
 </html>
+
+
+
+
