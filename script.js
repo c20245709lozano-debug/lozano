@@ -12,3 +12,16 @@ console.log(`My name is ${myName}, ${age} years old.`);
 console.log(`Number: ${myNumber}`);
 console.log(`Address: ${myAddress}`)
 console.log(67);
+
+
+
+function greet(greeting, names =[]){
+   if (Array.isArray(names)){
+      names= names.join (",");
+   } 
+   return `${greeting} sa enyu, ${names}.`;
+
+}
+
+console.log(greet("Mayong aga" , ["Kim", "Kim", "Kim", "Kim"]));
+
