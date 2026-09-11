@@ -108,6 +108,11 @@ h1 {
     color: green;
 }
 
+<<<<<<< HEAD
 #projects{
  color: orange;
+=======
+#projects {
+    background-color: blue;
+>>>>>>> cold-theme
 }
